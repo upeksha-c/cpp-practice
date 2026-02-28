@@ -1,3 +1,6 @@
+/* A palindrome is something that looks the same when read from left to right and from right to left.
+In this program, we check whether the binary form of a given decimal number is a palindrome. */
+
 #include <iostream>
 
 using namespace std;
