@@ -1,3 +1,6 @@
+/*Write a C++ function named dayOfYear that takes a 
+Date structure and returns the day number within the year (Jan 1 = day 1).*/
+
 #include <iostream>
 
 using namespace std;
