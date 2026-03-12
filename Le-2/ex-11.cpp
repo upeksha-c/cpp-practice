@@ -17,7 +17,7 @@ int main(void) {
 	cin >> ballsno;
 	srand(time(NULL));
 
-    //array for drawned balls
+    //create a dynamic array to hold the drawn balls
 	int *ballBox = new int[ballsno];
 	
 	//draw balls
@@ -46,6 +46,9 @@ int main(void) {
 	for(int k=0; k<ballsno; k++){
 	    cout<<ballBox[k]<<" ";
 	}
+
+    //free the memory
+    delete[] ballBox;
 
 	return 0;
 }
