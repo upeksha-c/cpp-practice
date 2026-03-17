@@ -63,5 +63,10 @@ int main(void){
     cout << fixed << setprecision(2);
     cout << "Overall final "<< overallGrade << endl;
     
+    //free memory
+    for(int i=0; i<courses; i++){
+        delete[] arra[i];
+    }
+    delete[] arra;
     
 }
